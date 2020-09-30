@@ -12,8 +12,8 @@ class Competances extends Component {
         return (
             <div>
                 <div className="col-md-12 left">
-                    <h5 className="competanceTitre text-center">Competances</h5>
-                    <p className="categorieCompetances">Developpement Web</p>
+                    <h5 className="competanceTitre text-center">Compétances</h5>
+                    <p className="categorieCompetances">Développement Web</p>
                     <ul>
                         <li>Web front-end :</li>
                         <p className="italicSansPuce">Html, CSS, JavaScript, AJAX, Bootstrap,
