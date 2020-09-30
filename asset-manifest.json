@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/me/static/css/main.25d895ed.chunk.css",
+    "main.js": "/me/static/js/main.1aa073ba.chunk.js",
+    "main.js.map": "/me/static/js/main.1aa073ba.chunk.js.map",
+    "runtime-main.js": "/me/static/js/runtime-main.dcdeb516.js",
+    "runtime-main.js.map": "/me/static/js/runtime-main.dcdeb516.js.map",
+    "static/js/2.042f6a72.chunk.js": "/me/static/js/2.042f6a72.chunk.js",
+    "static/js/2.042f6a72.chunk.js.map": "/me/static/js/2.042f6a72.chunk.js.map",
+    "index.html": "/me/index.html",
+    "precache-manifest.448efdcbf5fa0489a8036b6849b29f1e.js": "/me/precache-manifest.448efdcbf5fa0489a8036b6849b29f1e.js",
+    "service-worker.js": "/me/service-worker.js",
+    "static/css/main.25d895ed.chunk.css.map": "/me/static/css/main.25d895ed.chunk.css.map",
+    "static/js/2.042f6a72.chunk.js.LICENSE.txt": "/me/static/js/2.042f6a72.chunk.js.LICENSE.txt",
+    "static/media/navbartop.css": "/me/static/media/fuji.a5276928.jpg",
+    "static/media/logo.svg": "/me/static/media/logo.5d5d9eef.svg",
+    "static/media/asideleft.css": "/me/static/media/photo.0e3fe308.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dcdeb516.js",
+    "static/js/2.042f6a72.chunk.js",
+    "static/css/main.25d895ed.chunk.css",
+    "static/js/main.1aa073ba.chunk.js"
+  ]
+}
