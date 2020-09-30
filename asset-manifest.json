@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/cvreact/static/css/main.5e37f24e.chunk.css",
-    "main.js": "/cvreact/static/js/main.df14eee3.chunk.js",
-    "main.js.map": "/cvreact/static/js/main.df14eee3.chunk.js.map",
+    "main.js": "/cvreact/static/js/main.6a4690d8.chunk.js",
+    "main.js.map": "/cvreact/static/js/main.6a4690d8.chunk.js.map",
     "runtime-main.js": "/cvreact/static/js/runtime-main.8a3088aa.js",
     "runtime-main.js.map": "/cvreact/static/js/runtime-main.8a3088aa.js.map",
     "static/js/2.621fdba9.chunk.js": "/cvreact/static/js/2.621fdba9.chunk.js",
     "static/js/2.621fdba9.chunk.js.map": "/cvreact/static/js/2.621fdba9.chunk.js.map",
     "index.html": "/cvreact/index.html",
-    "precache-manifest.976c611228d530b9bef2d717653895d5.js": "/cvreact/precache-manifest.976c611228d530b9bef2d717653895d5.js",
+    "precache-manifest.df2628ce8fbce1455d63c60731bc42fb.js": "/cvreact/precache-manifest.df2628ce8fbce1455d63c60731bc42fb.js",
     "service-worker.js": "/cvreact/service-worker.js",
     "static/css/main.5e37f24e.chunk.css.map": "/cvreact/static/css/main.5e37f24e.chunk.css.map",
     "static/js/2.621fdba9.chunk.js.LICENSE.txt": "/cvreact/static/js/2.621fdba9.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.8a3088aa.js",
     "static/js/2.621fdba9.chunk.js",
     "static/css/main.5e37f24e.chunk.css",
-    "static/js/main.df14eee3.chunk.js"
+    "static/js/main.6a4690d8.chunk.js"
   ]
 }
