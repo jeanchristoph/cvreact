@@ -1,0 +1,15 @@
+.titreFormation{
+    font-weight: 500;
+    list-style-type: none;
+}
+.lieuFormation{
+    font-style: italic;
+    list-style-type: none;
+    
+}
+
+.dateFormation{
+    font-style: italic;
+    list-style-type: none;
+}
+

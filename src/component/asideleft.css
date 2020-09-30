@@ -1,0 +1,21 @@
+#photoProfil{
+    background-image: url('../images/photo.jpg');
+    height: 20vh;
+    width: 50%;
+    background-size: cover;
+    border-radius: 50%;
+    margin: auto;
+    background-position: center;
+}
+
+.name{
+    text-align: center;
+}
+
+.presentationCourte{
+    text-align: center;
+}
+
+.left{
+    background-color: lightgreen;
+}

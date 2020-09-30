@@ -1,0 +1,16 @@
+.titre{
+    font-weight: 500;
+    list-style-type: none;
+}
+.lieu{
+    font-style: italic;
+}
+.lieuExperience{
+    font-style: italic;
+    list-style-type: none;
+}
+
+.dateExperience{
+    font-style: italic;
+    list-style-type: none;
+}
