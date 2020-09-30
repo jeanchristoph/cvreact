@@ -14,8 +14,9 @@ class Experiences extends Component {
             <div className="experiences">
                 <h4 className="text-center">Expériences professionnelles</h4>
                 <ul>
-                    <li className="titre">Développeur web</li>
-                    <li className="lieuExperience">IPSUMEDIA Eygalières, France</li>
+                    <li className="boldSansPuce">Développeur web</li>
+                    <li className="italicSansPuce">IPSUMEDIA Eygalières, France</li>
+                    <li className="italicSansPuce">mars-avril 2020</li>
                     </ul>
                     <ul>
                         <li>Rendre une application existante responsive en

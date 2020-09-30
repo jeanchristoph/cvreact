@@ -1,14 +1,9 @@
-.titreFormation{
-    font-weight: 500;
+.boldSansPuce{
+    font-weight: 700;
     list-style-type: none;
-}
-.lieuFormation{
-    font-style: italic;
-    list-style-type: none;
-    
 }
 
-.dateFormation{
+.italicSansPuce{
     font-style: italic;
     list-style-type: none;
 }

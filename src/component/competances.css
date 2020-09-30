@@ -6,3 +6,8 @@
     font-style: italic;
     list-style-type: none;
 }
+
+.boldSansPuce{
+    font-weight: 700;
+    list-style-type: none;
+}

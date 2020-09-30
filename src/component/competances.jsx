@@ -17,10 +17,12 @@ class Competances extends Component {
                     <ul>
                         <li>Web front-end :</li>
                         <p className="italicSansPuce">Html, CSS, JavaScript, AJAX, Bootstrap,
-React</p>
+                        React
+</p>
                         <li>Web back-end :</li>
                         <p className="italicSansPuce">MySQL, PHP, C#, Symfony et Angular,
-.NET MVC</p>
+                        .NET MVC
+</p>
                         <li>CMS :</li>
                         <p className="italicSansPuce">Wordpress, Prestashop</p>
                         <li>Retouche d'image et édition vidéo</li>
@@ -41,7 +43,7 @@ commercial B2B</li>
                         <p className="italicSansPuce">Courant, JLPT
 N2 (1/2014)</p>
                     </ul>
-                    
+
                 </div>
 
             </div>

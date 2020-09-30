@@ -20,7 +20,7 @@ class AsideRight extends Component {
                 <div className="col-md-12 right">
                     <Expericences />
                 </div>
-                <div className="col-md-12 right" id="photoFormation">
+                <div className="col-md-12 right" id="photoFormationnpn">
                 </div>
                 <div className="col-md-12 right">
                     <Formation />
