@@ -9,6 +9,11 @@ import NavbarTop from './component/navbartop'
 
 
 class App extends Component {
+
+  componentDidMount() {
+    document.title = 'Mon CV en React.js';
+  }
+
   render() {
     return (
       <div className="container">

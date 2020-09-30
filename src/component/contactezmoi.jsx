@@ -68,6 +68,7 @@ class ContactezMoi extends Component {
                 <p>
                     <label htmlFor="nom">Nom: </label>
                     <input
+                    className="ml-3"
                         type="text"
                         name="nom"
                         value={nom}
@@ -77,6 +78,7 @@ class ContactezMoi extends Component {
                 <p>
                     <label htmlFor="email">E-mail: </label>
                     <input
+                    className="ml-2"
                         type="email"
                         name="email"
                         value={email}
@@ -86,6 +88,7 @@ class ContactezMoi extends Component {
                 <p>
                     <label htmlFor="message">Message: </label>
                     <textarea
+                        className="ml-3"
                         type="text"
                         name="message"
                         value={message}
@@ -94,13 +97,13 @@ class ContactezMoi extends Component {
                 </p>
                 <p>
                     <label htmlFor="comment">Comment m'avez-vous connu ?</label>
-                    <select value={comment} name="comment" onChange={this.handleChange}>
+                    <select value={comment} name="comment" onChange={this.handleChange} className="ml-2">
                         <option value="">Veuillez choisir</option>
                         <option value="google">Recherche Google</option>
                         <option value="linkedin">Linkedin</option>
-                        <option value="jobboard">autre job boards</option>
+                        <option value="jobboard">Autre job boards</option>
                         <option value="candidature">Candidature</option>
-                        <option value="autre">autre</option>
+                        <option value="autre">Autre</option>
 
                     </select>
                 </p>
