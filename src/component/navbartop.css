@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@800&display=swap');
+
 .navbarmenu{
     background-color: grey;
     margin-top: 1%;
@@ -6,10 +8,17 @@
     background-size: cover;
     background-position: center;
     min-height: 30vh;
+    filter: brightness(95%)
     }
     
+.TitrePrincipal{
+    margin-top: 11vh;
+    font-family: 'Sansita Swashed', cursive;
+    background-color: blanchedalmond;
+    filter: opacity(80%);
 
     
+}
 
 
 

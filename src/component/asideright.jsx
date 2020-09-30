@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './asideright.css';
+import ContactezMoi from './contactezmoi';
 import Expericences from './experiences'
 import Formation from './formations'
 
@@ -24,6 +25,9 @@ class AsideRight extends Component {
                 </div>
                 <div className="col-md-12 right">
                     <Formation />
+                </div>
+                <div className="col-md-12 right">
+                    <ContactezMoi />
                 </div>
 
 

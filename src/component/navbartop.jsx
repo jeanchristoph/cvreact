@@ -12,14 +12,12 @@ class NavbarTop extends React.Component {
             <div className="navbarmenu">
 
                 <div className="row">
-                    <div className="col-md-4"></div>
-                    <div className="col-md-4 text-center">
-                        <h4 className=" onglet ">MENU</h4>
+                    <div className="col-md-12">
+                        <h1 className=" TitrePrincipal text-center">Mon CV en React.js</h1>
                     </div>
-                    <div className="col-md-4"></div>
 
                 </div>
-                <div className="row mt-5">
+                {/* <div className="row mt-5">
                     <div className="col-md-4 text-center">
                         <button className=" onglet btn btn-secondary">Mon CV</button>
                     </div>
@@ -31,9 +29,7 @@ class NavbarTop extends React.Component {
                     </div>
 
 
-
-
-                </div>
+                </div> */}
             </div>
         )
     }
