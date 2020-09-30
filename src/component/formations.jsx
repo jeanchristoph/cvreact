@@ -14,7 +14,7 @@ class Formations extends Component {
             <div className="formations">
                 <h4 className="text-center">Diplômes et Formations</h4>
                 <ul>
-                    <li className="boldSansPuce">Titre Professionnel : Developpeur Web / Web
+                    <li className="boldSansPuce">Titre Professionnel : Développeur Web / Web
                     mobile
                 </li>
                     <li className="italicSansPuce">Greta Vaucluse Orange</li>
