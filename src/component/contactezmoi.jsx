@@ -69,7 +69,7 @@ class ContactezMoi extends Component {
                     <p>
                         <label htmlFor="nom">Nom: </label>
                         <input
-                            className="ml-3"
+                            className="form-control"
                             type="text"
                             name="nom"
                             value={nom}
@@ -79,7 +79,7 @@ class ContactezMoi extends Component {
                     <p>
                         <label htmlFor="email">E-mail: </label>
                         <input
-                            className="ml-2"
+                            className="form-control"
                             type="email"
                             name="email"
                             value={email}
@@ -89,7 +89,7 @@ class ContactezMoi extends Component {
                     <p>
                         <label htmlFor="message">Message: </label>
                         <textarea
-                            className="ml-3"
+                            className=" form-control"
                             type="text"
                             name="message"
                             value={message}
@@ -98,7 +98,7 @@ class ContactezMoi extends Component {
                     </p>
                     <p>
                         <label htmlFor="comment">Comment m'avez-vous connu ?</label>
-                        <select value={comment} name="comment" onChange={this.handleChange} className="ml-2">
+                        <select value={comment} name="comment" onChange={this.handleChange} className="form-control">
                             <option value="">Veuillez choisir</option>
                             <option value="google">Recherche Google</option>
                             <option value="linkedin">Linkedin</option>
@@ -109,7 +109,7 @@ class ContactezMoi extends Component {
                         </select>
                     </p>
                     <p>
-                        <input type="submit" value="valider" />
+                        <input className="btn btn-secondary btn-block" type="submit" value="Valider" />
                     </p>
 
 
