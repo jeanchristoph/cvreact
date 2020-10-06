@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4a078ecf7fce5261ca82b405375b398b",
+    "revision": "5551ebf5fda233e742a3bc8fe321be60",
     "url": "/cvreact/index.html"
   },
   {
-    "revision": "c316c21d03488e4d2723",
-    "url": "/cvreact/static/css/main.2e65e6db.chunk.css"
+    "revision": "90b3334445af96aa3018",
+    "url": "/cvreact/static/css/main.f968b206.chunk.css"
   },
   {
     "revision": "a2216fb6a5cea2e7cdb2",
@@ -16,16 +16,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cvreact/static/js/2.6684ca3a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c316c21d03488e4d2723",
-    "url": "/cvreact/static/js/main.0515d509.chunk.js"
+    "revision": "90b3334445af96aa3018",
+    "url": "/cvreact/static/js/main.010cc827.chunk.js"
   },
   {
     "revision": "dab63f1e584c0bd3d7aa",
     "url": "/cvreact/static/js/runtime-main.8a3088aa.js"
   },
   {
+    "revision": "06bf90e70059e55e056101ad67a234f5",
+    "url": "/cvreact/static/media/code.06bf90e7.jpg"
+  },
+  {
     "revision": "a527692885b590e0f1ee2ee441083e27",
     "url": "/cvreact/static/media/fuji.a5276928.jpg"
+  },
+  {
+    "revision": "be04b50009408c4f68809cd77cfdc2ad",
+    "url": "/cvreact/static/media/jsoffice.be04b500.jpg"
   },
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",

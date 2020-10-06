@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/cvreact/static/css/main.2e65e6db.chunk.css",
-    "main.js": "/cvreact/static/js/main.0515d509.chunk.js",
-    "main.js.map": "/cvreact/static/js/main.0515d509.chunk.js.map",
+    "main.css": "/cvreact/static/css/main.f968b206.chunk.css",
+    "main.js": "/cvreact/static/js/main.010cc827.chunk.js",
+    "main.js.map": "/cvreact/static/js/main.010cc827.chunk.js.map",
     "runtime-main.js": "/cvreact/static/js/runtime-main.8a3088aa.js",
     "runtime-main.js.map": "/cvreact/static/js/runtime-main.8a3088aa.js.map",
     "static/js/2.6684ca3a.chunk.js": "/cvreact/static/js/2.6684ca3a.chunk.js",
     "static/js/2.6684ca3a.chunk.js.map": "/cvreact/static/js/2.6684ca3a.chunk.js.map",
     "index.html": "/cvreact/index.html",
-    "precache-manifest.a443f412fb8b7e3df09402933663daf8.js": "/cvreact/precache-manifest.a443f412fb8b7e3df09402933663daf8.js",
+    "precache-manifest.664db09b04152b86b1032e9123e00e0f.js": "/cvreact/precache-manifest.664db09b04152b86b1032e9123e00e0f.js",
     "service-worker.js": "/cvreact/service-worker.js",
-    "static/css/main.2e65e6db.chunk.css.map": "/cvreact/static/css/main.2e65e6db.chunk.css.map",
+    "static/css/main.f968b206.chunk.css.map": "/cvreact/static/css/main.f968b206.chunk.css.map",
     "static/js/2.6684ca3a.chunk.js.LICENSE.txt": "/cvreact/static/js/2.6684ca3a.chunk.js.LICENSE.txt",
+    "static/media/asideright.css": "/cvreact/static/media/jsoffice.be04b500.jpg",
     "static/media/navbartop.css": "/cvreact/static/media/fuji.a5276928.jpg",
     "static/media/logo.svg": "/cvreact/static/media/logo.5d5d9eef.svg",
     "static/media/asideleft.css": "/cvreact/static/media/photo.0e3fe308.jpg"
@@ -19,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.8a3088aa.js",
     "static/js/2.6684ca3a.chunk.js",
-    "static/css/main.2e65e6db.chunk.css",
-    "static/js/main.0515d509.chunk.js"
+    "static/css/main.f968b206.chunk.css",
+    "static/js/main.010cc827.chunk.js"
   ]
 }
