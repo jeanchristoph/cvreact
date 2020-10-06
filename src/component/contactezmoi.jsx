@@ -64,7 +64,7 @@ class ContactezMoi extends Component {
 
             <div className="rounded">
                 <form onSubmit={this.handleSubmit}>
-                    <h4 className="text-center">Contactez Moi</h4>
+                    <h4 className="text-center m-4">Contactez Moi</h4>
 
                     <p>
                         <label htmlFor="nom">Nom: </label>

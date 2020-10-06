@@ -15,18 +15,14 @@ class AsideLeft extends Component {
             <div>
                 <Fade left>
                 <div className="col-md-12 pb-2 left rounded">
-                    <h4 className="name">Jean-Christophe Malaval</h4>
+                    <h4 className="name m-4">Jean-Christophe Malaval</h4>
                     <div id="photoProfil"></div>
                 </div>
                 </Fade>
                 <Fade left>
-                <div className="col-md-12 mt-2 left rounded">
+                <div className="col-md-12 mt-1  mb-2 left rounded">
                     <h6 className="accroche text-center">DÉVELOPPEUR WEB JAVASCRIPT / PHP</h6>
-                    <p className="presentationCourte" >
-                         
-                Mobile en région PACA
-                    </p>
-
+                    <p className="presentationCourte" >Mobile en région PACA</p>
                 </div>
                 </Fade>
                 <Fade left>

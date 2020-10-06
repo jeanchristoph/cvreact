@@ -12,7 +12,7 @@ class Experiences extends Component {
         const contenu = this.props.contenu
         return (
             <div className="experiences">
-                <h4 className="text-center">Expériences professionnelles</h4>
+                <h4 className="text-center m-4">Expériences professionnelles</h4>
                 <ul>
                     <li className="boldSansPuce">Développeur web</li>
                     <li className="italicSansPuce">IPSUMEDIA Eygalières, France</li>

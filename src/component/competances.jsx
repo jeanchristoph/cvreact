@@ -12,7 +12,7 @@ class Competances extends Component {
         return (
             <div>
                     <div className="col-md-12 left rounded">
-                        <h5 className="competanceTitre text-center">Compétances</h5>
+                        <h5 className="competanceTitre text-center m-4">Compétances</h5>
                         <p className="categorieCompetances">Développement Web</p>
                         <ul>
                             <li>Web front-end :</li>

@@ -12,7 +12,7 @@ class Formations extends Component {
         const contenu = this.props.contenu
         return (
             <div className="formations">
-                <h4 className="text-center">Diplômes et Formations</h4>
+                <h4 className="text-center m-4">Diplômes et Formations</h4>
                 <ul>
                     <li className="boldSansPuce">Titre Professionnel : Développeur Web / Web
                     mobile

@@ -1,12 +1,27 @@
 .right {
-    background-color: lightpink;
+    background-color: #f6ddcc;
+    border: 5px double  #f2b58d;
 
 }
-
-#photoExperiences{
-
+#photoFormationnpn{
+    background-image: url(./../images/code.jpg);
+    background-color: grey;
+    background-size: cover;
+    background-position: center;
+    min-height: 20vh;
 }
 
-#photoFormations{
-    
+.right-simpleborder {
+    background-color: #f6ddcc;
+    border: 3px solid  #f2b58d;
+
 }
+#photoExpericences{
+    background-image: url(./../images/jsoffice.jpg);
+    background-color: grey;
+    background-size: cover;
+    background-position: bottom;
+    min-height: 20vh;
+}
+
+

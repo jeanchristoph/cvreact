@@ -18,24 +18,32 @@ class AsideRight extends Component {
         return (
 
             <div className="">
-                <div className="col-md-12 right rounded" id="photoExpericences">
-                </div>
+
+
+
+
                 <Fade right>
-                <div className="col-md-12 right rounded">
-                    <Expericences />
-                </div>
+                    <div className="col-md-12 right rounded mb-1">
+                        <Expericences />
+                    </div>
                 </Fade>
-                <div className="col-md-12 right rounded" id="photoFormationnpn">
+
+                <div className="col-md-12 right-simpleborder rounded  mb-1" id="photoFormationnpn">
                 </div>
+
+
+
                 <Fade right>
-                <div className="col-md-12 right rounded">
-                    <Formation />
-                </div>
+                    <div className="col-md-12 right mt-1 rounded">
+                        <Formation />
+                    </div>
                 </Fade>
-                <Fade right>
-                <div className="col-md-12 right rounded">
-                    <ContactezMoi />
+                <div className="col-md-12 right-simpleborder rounded  mt-1 mb-1" id="photoExpericences">
                 </div>
+                <Fade right>
+                    <div className="col-md-12 right mt-1 rounded">
+                        <ContactezMoi />
+                    </div>
                 </Fade>
 
 
