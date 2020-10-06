@@ -64,7 +64,7 @@ class ContactezMoi extends Component {
 
             <div className="rounded">
                 <form onSubmit={this.handleSubmit}>
-                    <h4 className="text-center m-4">Contactez Moi</h4>
+                    <h4 className="text-center m-4">Contactez-Moi</h4>
 
                     <p>
                         <label htmlFor="nom">Nom: </label>
@@ -122,8 +122,8 @@ class ContactezMoi extends Component {
                 <p>Votre message est : {message}</p>
                 <p>Vous m'avez connu par : {comment}</p>
 
-                <button onClick={this.handleModify}>modifier</button>
-                <button onClick={this.handleValidate}>valider</button>
+                <button className="btn btn-danger btn-block" onClick={this.handleModify}>Modifier</button>
+                <button className="btn btn-success btn-block" onClick={this.handleValidate}>Valider</button>
 
             </div>
         ) : (
