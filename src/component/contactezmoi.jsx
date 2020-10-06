@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './contactezmoi.css';
 
+
 class ContactezMoi extends Component {
     constructor(props) {
         super(props)
@@ -40,15 +41,15 @@ class ContactezMoi extends Component {
         this.setState({ step: 2 });
     }
 
-    handleModify(e){
+    handleModify(e) {
         e.preventDefault();
-        this.setState({ step: 1})
+        this.setState({ step: 1 })
     }
 
-    handleValidate(e){
+    handleValidate(e) {
         // envoie de data au server
         //@todo
-        this.setState({ step:3})
+        this.setState({ step: 3 })
     }
 
     render() {
@@ -61,58 +62,59 @@ class ContactezMoi extends Component {
 
         return this.state.step == 1 ? (
 
+            <div className="rounded">
+                <form onSubmit={this.handleSubmit}>
+                    <h4 className="text-center">Contactez Moi</h4>
 
-            <form onSubmit={this.handleSubmit}>
-                <h4 className="text-center">Contactez Moi</h4>
+                    <p>
+                        <label htmlFor="nom">Nom: </label>
+                        <input
+                            className="ml-3"
+                            type="text"
+                            name="nom"
+                            value={nom}
+                            onChange={this.handleChange}
+                        />
+                    </p>
+                    <p>
+                        <label htmlFor="email">E-mail: </label>
+                        <input
+                            className="ml-2"
+                            type="email"
+                            name="email"
+                            value={email}
+                            onChange={this.handleChange}
+                        />
+                    </p>
+                    <p>
+                        <label htmlFor="message">Message: </label>
+                        <textarea
+                            className="ml-3"
+                            type="text"
+                            name="message"
+                            value={message}
+                            onChange={this.handleChange}
+                        />
+                    </p>
+                    <p>
+                        <label htmlFor="comment">Comment m'avez-vous connu ?</label>
+                        <select value={comment} name="comment" onChange={this.handleChange} className="ml-2">
+                            <option value="">Veuillez choisir</option>
+                            <option value="google">Recherche Google</option>
+                            <option value="linkedin">Linkedin</option>
+                            <option value="jobboard">Autre job boards</option>
+                            <option value="candidature">Candidature</option>
+                            <option value="autre">Autre</option>
 
-                <p>
-                    <label htmlFor="nom">Nom: </label>
-                    <input
-                    className="ml-3"
-                        type="text"
-                        name="nom"
-                        value={nom}
-                        onChange={this.handleChange}
-                    />
-                </p>
-                <p>
-                    <label htmlFor="email">E-mail: </label>
-                    <input
-                    className="ml-2"
-                        type="email"
-                        name="email"
-                        value={email}
-                        onChange={this.handleChange}
-                    />
-                </p>
-                <p>
-                    <label htmlFor="message">Message: </label>
-                    <textarea
-                        className="ml-3"
-                        type="text"
-                        name="message"
-                        value={message}
-                        onChange={this.handleChange}
-                    />
-                </p>
-                <p>
-                    <label htmlFor="comment">Comment m'avez-vous connu ?</label>
-                    <select value={comment} name="comment" onChange={this.handleChange} className="ml-2">
-                        <option value="">Veuillez choisir</option>
-                        <option value="google">Recherche Google</option>
-                        <option value="linkedin">Linkedin</option>
-                        <option value="jobboard">Autre job boards</option>
-                        <option value="candidature">Candidature</option>
-                        <option value="autre">Autre</option>
-
-                    </select>
-                </p>
-                <p>
-                    <input type="submit" value="valider" />
-                </p>
+                        </select>
+                    </p>
+                    <p>
+                        <input type="submit" value="valider" />
+                    </p>
 
 
-            </form>
+                </form>
+            </div>
         ) : this.state.step == 2 ? (
             <div>
                 <p>Votre nom est : {nom}</p>

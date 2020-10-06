@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './asideleft.css';
 import Competances from './competances'
+import Fade from 'react-reveal/Fade';
 
 class AsideLeft extends Component {
     constructor(props) {
@@ -12,11 +13,14 @@ class AsideLeft extends Component {
 
         return (
             <div>
-                <div className="col-md-12 pb-2 left">
+                <Fade left>
+                <div className="col-md-12 pb-2 left rounded">
                     <h4 className="name">Jean-Christophe Malaval</h4>
                     <div id="photoProfil"></div>
                 </div>
-                <div className="col-md-12 mt-2 left">
+                </Fade>
+                <Fade left>
+                <div className="col-md-12 mt-2 left rounded">
                     <h6 className="accroche text-center">DÉVELOPPEUR WEB JAVASCRIPT / PHP</h6>
                     <p className="presentationCourte" >
                          
@@ -24,8 +28,10 @@ class AsideLeft extends Component {
                     </p>
 
                 </div>
+                </Fade>
+                <Fade left>
                 <Competances/>
-
+                </Fade>
             </div>
 
         )

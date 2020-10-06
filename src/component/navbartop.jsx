@@ -9,7 +9,7 @@ class NavbarTop extends React.Component {
     render() {
         const menu = this.props.menu
         return (
-            <div className="navbarmenu">
+            <div className="navbarmenu rounded">
 
                 <div className="row">
                     <div className="col-md-12">

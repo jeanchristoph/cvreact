@@ -3,6 +3,8 @@ import './asideright.css';
 import ContactezMoi from './contactezmoi';
 import Expericences from './experiences'
 import Formation from './formations'
+import Fade from 'react-reveal/Fade';
+
 
 class AsideRight extends Component {
     constructor(props) {
@@ -16,19 +18,25 @@ class AsideRight extends Component {
         return (
 
             <div className="">
-                <div className="col-md-12 right" id="photoExpericences">
+                <div className="col-md-12 right rounded" id="photoExpericences">
                 </div>
-                <div className="col-md-12 right">
+                <Fade right>
+                <div className="col-md-12 right rounded">
                     <Expericences />
                 </div>
-                <div className="col-md-12 right" id="photoFormationnpn">
+                </Fade>
+                <div className="col-md-12 right rounded" id="photoFormationnpn">
                 </div>
-                <div className="col-md-12 right">
+                <Fade right>
+                <div className="col-md-12 right rounded">
                     <Formation />
                 </div>
-                <div className="col-md-12 right">
+                </Fade>
+                <Fade right>
+                <div className="col-md-12 right rounded">
                     <ContactezMoi />
                 </div>
+                </Fade>
 
 
             </div >
